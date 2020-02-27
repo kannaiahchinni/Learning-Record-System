@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get Version number from Glide Record</description>
+        <internal_name>get_version_number</internal_name>
+        <label_cache>[{"name":"{{action.version}}","label":"action➛Version","type":"action","ref":"x_snc_lrs_version"},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].}}","label":"step➛Version Number➛","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].n}}","label":"step➛Version Number➛n","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].ne}}","label":"step➛Version Number➛ne","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new}}","label":"step➛Version Number➛new","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_}}","label":"step➛Version Number➛new_","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_v}}","label":"step➛Version Number➛new_v","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_ve}}","label":"step➛Version Number➛new_ve","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_ver}}","label":"step➛Version Number➛new_ver","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_vers}}","label":"step➛Version Number➛new_vers","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_versi}}","label":"step➛Version Number➛new_versi","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_versio}}","label":"step➛Version Number➛new_versio","type":"step","ref":""},{"name":"{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_version}}","label":"step➛Version Number➛new_version","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Version number</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Version number">d04e606edb43c8103da693c3e2961901</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:00:51</sys_created_on>
+        <sys_id>24efe0eedb43c8103da693c3e29619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Version number</sys_name>
+        <sys_package display_value="Learning record system" source="x_snc_lrs">37f1ac66db43c8103da693c3e296192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning record system">37f1ac66db43c8103da693c3e296192d</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_24efe0eedb43c8103da693c3e29619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:00:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=24efe0eedb43c8103da693c3e29619b5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=24efe0eedb43c8103da693c3e29619b5"/>
+    <sys_element_mapping action="delete_multiple" query="id=24efe0eedb43c8103da693c3e29619b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_version</field>
+        <id>24efe0eedb43c8103da693c3e29619b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:00:52</sys_created_on>
+        <sys_id>81efe0eedb43c8103da693c3e29619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:00:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_24efe0eedb43c8103da693c3e29619b5</table>
+        <value>{{step[55331e2d-5fed-4974-a149-b2382fd0652f].new_version}}</value>
+    </sys_element_mapping>
+</record_update>

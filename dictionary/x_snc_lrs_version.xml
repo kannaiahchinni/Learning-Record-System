@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Version" max_length="40" name="x_snc_lrs_version" type="collection">
+        <element label="Course" max_length="32" name="course" reference="u_course" type="reference"/>
+        <element label="Is Latest" max_length="40" name="is_latest" type="boolean"/>
+        <element label="Version Number" max_length="40" name="version_number" type="integer"/>
+        <element label="Version Path" max_length="255" name="version_path" type="string_full_utf8"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+    </element>
+</database>

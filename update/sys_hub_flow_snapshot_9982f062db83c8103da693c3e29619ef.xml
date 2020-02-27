@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Check the version of the course or lesson before upload to create the subdirectories inside of the storage</description>
+        <internal_name>check_version</internal_name>
+        <label_cache>[{"name":"94430e5b-3e20-4041-87fe-047fcb8248d7.new_version","label":"2.1➛new_version","type":"string","base_type":"string"},{"name":"6d12e249-d1e8-4be2-9112-a7e41ead1857.item","label":"2➛Version Record","reference":"x_snc_lrs_version","reference_display":"Version","type":"reference","base_type":"reference"},{"name":"c5ed9a81-e0e4-4335-b674-6f32264c871a.new_version","label":"2➛new_version","reference_display":"new_version","type":"string","base_type":"string"},{"name":"edcf4634-5504-4509-a2b9-5e8a8161a4e0.new_version","label":"2➛new_version","reference_display":"new_version","type":"string","base_type":"string"},{"name":"829fdc83-0679-4092-afb2-0766005be839.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"829fdc83-0679-4092-afb2-0766005be839.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"829fdc83-0679-4092-afb2-0766005be839.Records","label":"1➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"subflow.courseid","label":"Input➛courseid","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"299c6a18-4777-4601-81c0-f0e351ef3c95.Records","label":"1➛Version Records","reference":"x_snc_lrs_version","reference_display":"Version","type":"records","base_type":"records"},{"name":"299c6a18-4777-4601-81c0-f0e351ef3c95.Table","label":"1➛Version Table","reference":"x_snc_lrs_version","reference_display":"Version","type":"table_name","base_type":"table_name"},{"name":"299c6a18-4777-4601-81c0-f0e351ef3c95.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"5df387c5-4aff-4b15-91a6-7e048f3f0639.item","label":"2➛Version Record","reference":"x_snc_lrs_version","reference_display":"Version","type":"reference","base_type":"reference"}]</label_cache>
+        <master>true</master>
+        <name>Check Version</name>
+        <outputs/>
+        <parent_flow display_value="Check Version">0dba6ceadb43c8103da693c3e29619c4</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:12:22</sys_created_on>
+        <sys_id>9982f062db83c8103da693c3e29619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Version</sys_name>
+        <sys_package display_value="Learning record system" source="x_snc_lrs">37f1ac66db43c8103da693c3e296192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning record system">37f1ac66db43c8103da693c3e296192d</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_9982f062db83c8103da693c3e29619ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:12:22</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9982f062db83c8103da693c3e29619ef"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9982f062db83c8103da693c3e29619ef"/>
+</record_update>

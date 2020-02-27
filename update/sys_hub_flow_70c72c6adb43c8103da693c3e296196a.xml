@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Upload the course zip file to MidServer to serve the static content.</description>
+        <internal_name>course_file_upload</internal_name>
+        <label_cache>[{"name":"7a8d32cf-90ea-4166-b46f-360e3eb838ac.response","label":"1➛response","reference_display":"response","type":"string","base_type":"string"},{"name":"7a8d32cf-90ea-4166-b46f-360e3eb838ac.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"7a8d32cf-90ea-4166-b46f-360e3eb838ac.errorcode","label":"1➛errorCode","reference_display":"errorCode","type":"string","base_type":"string"},{"name":"Created or Updated_1.current.u_attachment_sysid","label":"Trigger➛Course Record➛Attachment SysId","reference":"","reference_display":"Attachment SysId","type":"string","base_type":"string","parent_table_name":"u_course","column_name":"u_attachment_sysid"},{"name":"Created or Updated_1.current.u_course_id","label":"Trigger➛Course Record➛Course ID","reference":"","reference_display":"Course ID","type":"string","base_type":"string","parent_table_name":"u_course","column_name":"u_course_id"},{"name":"8f3ef698-5165-46cc-86c0-80826d2975c5.new_version","label":"1➛new_version","type":"string","base_type":"string"},{"name":"Created or Updated_1.current","label":"Trigger➛Course Record","reference":"u_course","reference_display":"Course","type":"reference","base_type":"reference"},{"name":"ea7cb65f-0a46-4e63-b028-219ca143693d.response","label":"2➛response","reference_display":"response","type":"string","base_type":"string"},{"name":"ea7cb65f-0a46-4e63-b028-219ca143693d.status","label":"2➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"ea7cb65f-0a46-4e63-b028-219ca143693d.errorcode","label":"2➛errorCode","reference_display":"errorCode","type":"string","base_type":"string"},{"name":"Created or Updated_1.current.sys_id","label":"Trigger➛Course Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_course","column_name":"sys_id"},{"name":"e572ac34-39f5-442f-a1fd-55e9dfcd801e.version","label":"1➛version","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Course File Upload</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 11:25:21</sys_created_on>
+        <sys_id>70c72c6adb43c8103da693c3e296196a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Course File Upload</sys_name>
+        <sys_package display_value="Learning record system" source="x_snc_lrs">37f1ac66db43c8103da693c3e296192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning record system">37f1ac66db43c8103da693c3e296192d</sys_scope>
+        <sys_update_name>sys_hub_flow_70c72c6adb43c8103da693c3e296196a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:13:54</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=70c72c6adb43c8103da693c3e296196a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=70c72c6adb43c8103da693c3e296196a"/>
+</record_update>

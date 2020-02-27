@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">fab13822db83c8103da693c3e2961936</block>
+        <comment/>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Check Version">9982f062db83c8103da693c3e29619ef</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned>version</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d12e249-d1e8-4be2-9112-a7e41ead1857</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:12:23</sys_created_on>
+        <sys_id>a9823462db83c8103da693c3e2961988</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Learning record system" source="x_snc_lrs">37f1ac66db43c8103da693c3e296192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning record system">37f1ac66db43c8103da693c3e296192d</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_a9823462db83c8103da693c3e2961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:21:25</sys_updated_on>
+        <ui_id>95e9d5c4-6763-425e-9951-47664bfd110e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a9823462db83c8103da693c3e2961988"/>
+    <sys_element_mapping action="delete_multiple" query="id=a9823462db83c8103da693c3e2961988"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>version</field>
+        <id>a9823462db83c8103da693c3e2961988</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:12:23</sys_created_on>
+        <sys_id>e5823462db83c8103da693c3e29619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:12:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_9982f062db83c8103da693c3e29619ef</table>
+        <value>{{94430e5b-3e20-4041-87fe-047fcb8248d7.new_version}}</value>
+    </sys_element_mapping>
+</record_update>

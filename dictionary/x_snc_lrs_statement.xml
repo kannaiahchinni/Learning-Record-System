@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Statement" max_length="40" name="x_snc_lrs_statement" type="collection">
+        <element label="Completed Date" max_length="40" name="completed_date" type="glide_date_time"/>
+        <element label="Duration" max_length="40" name="duration" type="string"/>
+        <element choice="1" label="Result" max_length="40" name="result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Passed" sequence="1" value="passed"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="0" value="in-progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+            </choice>
+        </element>
+    </element>
+</database>

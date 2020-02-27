@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="State" max_length="40" name="x_snc_lrs_state" type="collection">
+        <element label="Activity ID" max_length="40" name="activity_id" type="string"/>
+        <element label="Agent" max_length="40" name="agent" type="string"/>
+        <element label="Bookmark" max_length="1000000" name="bookmark" type="string"/>
+        <element label="Content Endpoint" max_length="1000" name="content_endpoint" type="string"/>
+        <element label="Content Token" max_length="500" name="content_token" type="string"/>
+        <element label="External Configuration" max_length="1000" name="external_configuration" type="string"/>
+        <element label="External Registration" max_length="1000" name="external_registration" type="string"/>
+        <element label="JSON Data" max_length="1000000000" name="json_data" type="string_full_utf8"/>
+        <element label="Registration" max_length="40" name="registration" type="string"/>
+        <element label="State ID" max_length="40" name="state_id" type="string"/>
+        <element label="Time" max_length="40" name="time" type="integer"/>
+        <index name="index">
+            <element name="activity_id"/>
+            <element name="json_data"/>
+            <element name="registration"/>
+            <element name="state_id"/>
+            <element name="time"/>
+        </index>
+    </element>
+</database>

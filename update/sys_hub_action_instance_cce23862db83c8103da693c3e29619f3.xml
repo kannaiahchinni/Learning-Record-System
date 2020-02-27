@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Invoke Rest Call">ab7828aadb43c8103da693c3e2961932</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Course File Upload">70c72c6adb43c8103da693c3e296196a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:13:55</sys_created_on>
+        <sys_id>cce23862db83c8103da693c3e29619f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Learning record system" source="x_snc_lrs">37f1ac66db43c8103da693c3e296192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning record system">37f1ac66db43c8103da693c3e296192d</sys_scope>
+        <sys_update_name>sys_hub_action_instance_cce23862db83c8103da693c3e29619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:13:55</sys_updated_on>
+        <ui_id>ea7cb65f-0a46-4e63-b028-219ca143693d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cce23862db83c8103da693c3e29619f3"/>
+    <sys_element_mapping action="delete_multiple" query="id=cce23862db83c8103da693c3e29619f3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment</field>
+        <id>cce23862db83c8103da693c3e29619f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:13:55</sys_created_on>
+        <sys_id>80e23862db83c8103da693c3e29619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:13:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab7828aadb43c8103da693c3e2961932</table>
+        <value>{{Created or Updated_1.current.u_attachment_sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>courseid</field>
+        <id>cce23862db83c8103da693c3e29619f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:13:55</sys_created_on>
+        <sys_id>44e23862db83c8103da693c3e29619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:13:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab7828aadb43c8103da693c3e2961932</table>
+        <value>{{Created or Updated_1.current.u_course_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>version</field>
+        <id>cce23862db83c8103da693c3e29619f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 12:13:55</sys_created_on>
+        <sys_id>08e23862db83c8103da693c3e29619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 12:13:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab7828aadb43c8103da693c3e2961932</table>
+        <value>{{e572ac34-39f5-442f-a1fd-55e9dfcd801e.version}}</value>
+    </sys_element_mapping>
+</record_update>
